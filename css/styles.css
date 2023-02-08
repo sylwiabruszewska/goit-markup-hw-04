@@ -39,7 +39,7 @@ h1 {
 }
 
 .section {
-  padding: 94px;
+  padding: 94px 0;
 }
 
 /* MAIN NAVIGATION LIST */
@@ -225,6 +225,11 @@ h1 {
 .portfolio-card-item {
   margin: 15px;
   display: inline-block;
+}
+
+.portfolio-card-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-card-item:nth-of-type(3n + 1) {

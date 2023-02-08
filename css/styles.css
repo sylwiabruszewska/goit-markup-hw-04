@@ -353,6 +353,7 @@ h1 {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  background-color: #fff;
 }
 
 .staff-card-item figcaption {
@@ -431,7 +432,6 @@ h1 {
   border: 1px solid #afb1b8;
   border-radius: 4px;
   margin-right: 30px;
-  padding: 16px 32px;
 }
 
 .icon {
@@ -440,6 +440,12 @@ h1 {
 
 .item-our-clients:hover {
   border-color: var(--brand-color);
+}
+
+.link-our-clients {
+  cursor: pointer;
+  display: block;
+  padding: 16px 32px;
 }
 
 .item-our-clients:hover .icon {
